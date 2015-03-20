@@ -27,7 +27,7 @@ Wordpress installation includes:
 
 ### Configuration
 
-You can modify the configuration in 'config.yaml'
+You can modify the configuration in `config.yaml`
 
 ### What it does?
 

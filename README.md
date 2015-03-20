@@ -25,11 +25,30 @@ Wordpress installation includes:
 * [WpSyncDBMedia] - A addon to sync your medias between environments
 * [WpSyncDBCli] - An another addon to handle migrations from the command line
 
+### Configuration
+
+You can modify the configuration in 'config.yaml'
 
 ### What it does?
 
 The simple command `vagrant up` will generate a Wordpress installation ready to be used.
 
+### Main Commands
+
+From the project root
+
+| Command                              |      Action                                               |
+|--------------------------------------|:---------------------------------------------------------:|
+| vagrant up                           |  start the vagrant machine                                |
+| vagrant reload --provision           |  restart the vagrant machine                              |
+| vagrant halt                         |  stop the vagrant machine                                 |
+| vagrant exec wp wpsdb migrate 1      |  run WP Sync DB profile #1 (sync dev with local)          |
+
+From the project theme folder
+
+| Command                              |      Action                                               |
+|--------------------------------------|:---------------------------------------------------------:|
+| grunt watch                          |  start the grunt watcher (for scss and js changes)        |
 
 [Virtual Box]:https://www.virtualbox.org/
 [Vagrant]:https://www.vagrantup.com/

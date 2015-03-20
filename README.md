@@ -38,7 +38,7 @@ The simple command `vagrant up` will generate a Wordpress installation ready to 
 From the project root
 
 | Command                              |      Action                                               |
-|--------------------------------------|:---------------------------------------------------------:|
+|--------------------------------------|-----------------------------------------------------------|
 | vagrant up                           |  start the vagrant machine                                |
 | vagrant reload --provision           |  restart the vagrant machine                              |
 | vagrant halt                         |  stop the vagrant machine                                 |
@@ -47,7 +47,7 @@ From the project root
 From the project theme folder
 
 | Command                              |      Action                                               |
-|--------------------------------------|:---------------------------------------------------------:|
+|--------------------------------------|-----------------------------------------------------------|
 | grunt watch                          |  start the grunt watcher (for scss and js changes)        |
 
 [Virtual Box]:https://www.virtualbox.org/

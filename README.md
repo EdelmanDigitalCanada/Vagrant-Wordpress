@@ -13,9 +13,31 @@ http://gruntjs.com/
 
 * [Virtual Box] - The Virtual Machine Manager
 * [Vagrant] - Development environments based on VM
-* [Grunt] - Javascript Task Runner
+* [VagrantHostManager] - Vagrant Plugin to automatically update your local hosts file
+* [VagrantExec] - Vagrant plugin to allow direct command line execution from the host machine
+* [Grunt] - Javascript Task Runner  
+
+### Specifications
+
+Wordpress installation includes:
+* [WPCLI] - Command line support for Wordpress
+* [WpSyncDB] - A plugin that helps you to sync your databases between environments
+* [WpSyncDBMedia] - A addon to sync your medias between environments
+* [WpSyncDBCli] - An another addon to handle migrations from the command line
+
+
+### What it does?
+
+The simple command `vagrant up` will generate a Wordpress installation ready to be used.
 
 
 [Virtual Box]:https://www.virtualbox.org/
 [Vagrant]:https://www.vagrantup.com/
+[VagrantHostManager]:https://github.com/michaelbontyes/vagrant-hostmanager
+[VagrantExec]:https://github.com/michaelbontyes/vagrant-exec
 [Grunt]:http://gruntjs.com/
+
+[WPCLI]:http://wp-cli.org/
+[WpSyncDB]:https://github.com/wp-sync-db/wp-sync-db
+[WpSyncDBMedia]:https://github.com/wp-sync-db/wp-sync-db-media-files
+[WpSyncDBCli]:https://github.com/wp-sync-db/wp-sync-db-cli
